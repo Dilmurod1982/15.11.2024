@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "nodemon server.cjs",
+    "build": "echo 'No build step required for server'",
+    "start": "node server.cjs"
+  }
+}

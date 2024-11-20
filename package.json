@@ -1,0 +1,13 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "build": "npm run build --prefix client && npm run build --prefix server",
+    "start": "npm run start --prefix server"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
